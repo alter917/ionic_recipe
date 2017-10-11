@@ -24,7 +24,7 @@ import {SignupPage} from "../pages/signup/signup";
     ShoppingListPage,
     TabsPage,
     SigninPage,
-    SignupPage
+    SignupPage,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +39,7 @@ import {SignupPage} from "../pages/signup/signup";
     ShoppingListPage,
     TabsPage,
     SigninPage,
-    SignupPage
+    SignupPage,
   ],
   providers: [
     StatusBar,

@@ -16,14 +16,14 @@
       <button
         ion-item
         icon-left
-        (click)="onLoad(signinPage)">
+        (click)="onLoad(siginPage)">
         <ion-icon name="log-in"></ion-icon>
         Signin
       </button>
       <button
         ion-item
         icon-left
-        (click)="onLoad(signupPage)">
+        (click)="onLoad(sigupPage)">
         <ion-icon name="person"></ion-icon>
         Signup
       </button>
