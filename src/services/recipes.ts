@@ -1,8 +1,13 @@
 import {Recipe} from "../models/recipe";
 import {Ingredient} from "../models/ingredient";
+import {Injectable} from "@angular/core";
+import {Http} from "@angular/http";
 
+@Injectable()
 export class RecipesService {
   private recipes: Recipe[] = [];
+
+  constructor(private http: Http) {}
 
   addRecipe(title: string,
             description: string,
@@ -25,6 +30,14 @@ export class RecipesService {
 
   removeRecipe(index: number) {
     this.recipes.splice(index, 1);
+  }
+
+  storeList(token: string) {
+
+  }
+
+  fetchList(token: string) {
+
   }
 
 }
